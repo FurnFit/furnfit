@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView txt = findViewById(R.id.txt);
         txt.setText("i changed this");
+        txt.setText("i again changed");
     }
 }
